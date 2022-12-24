@@ -12,6 +12,8 @@ public class ArrayListDemo {
 		arrayList.add("Shyam");
 		arrayList.add("Dhiraj");
 		
-		System.out.println(arrayList);
+		for(String s : arrayList) {
+			System.out.println(s);
+		}
 	}
 }
